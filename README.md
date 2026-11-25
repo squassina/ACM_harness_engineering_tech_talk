@@ -50,6 +50,18 @@ reliability with retries.
 
 ## Run it
 
+### With Docker Compose
+
+Install Docker, then run:
+
+```bash
+docker compose up --build
+```
+
+Open http://localhost:8501. Stop the app with `Ctrl+C`.
+
+### With Python
+
 You need Python 3.10 or newer. No API key is required.
 
 ```bash
